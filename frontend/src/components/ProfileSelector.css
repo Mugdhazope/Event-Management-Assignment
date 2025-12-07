@@ -1,0 +1,152 @@
+.profile-selector {
+  position: relative;
+}
+
+.profile-selector-button {
+  background: #1a1a1a;
+  border: 1px solid #3a3a3a;
+  color: #e0e0e0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 200px;
+  justify-content: space-between;
+  transition: all 0.2s;
+}
+
+.profile-selector-button:hover {
+  background: #222222;
+  border-color: #4a4a4a;
+}
+
+.dropdown-arrow {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: #1a1a1a;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  min-width: 280px;
+  max-width: 320px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.profile-search {
+  padding: 12px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.search-input {
+  width: 100%;
+  background: #0a0a0a;
+  border: 1px solid #3a3a3a;
+  color: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #6a6a6a;
+}
+
+.profile-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.profile-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+  font-size: 14px;
+}
+
+.profile-item:hover {
+  background: #222222;
+}
+
+.profile-item.selected {
+  background: #3a1a5a;
+  color: #ffffff;
+}
+
+.checkmark {
+  color: #a855f7;
+  font-weight: bold;
+}
+
+.add-profile-section {
+  padding: 12px;
+  border-top: 1px solid #2a2a2a;
+  display: flex;
+  gap: 8px;
+}
+
+.add-profile-input {
+  flex: 1;
+  background: #0a0a0a;
+  border: 1px solid #3a3a3a;
+  color: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-profile-input:focus {
+  outline: none;
+  border-color: #6a6a6a;
+}
+
+.add-profile-button {
+  background: #6a6a6a;
+  border: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.add-profile-button:hover {
+  background: #7a7a7a;
+}
+
+.add-profile-form {
+  padding: 12px;
+  border-top: 1px solid #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.add-profile-submit {
+  background: #7c3aed;
+  border: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.add-profile-submit:hover {
+  background: #8b5cf6;
+}
+
